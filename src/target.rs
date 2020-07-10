@@ -79,7 +79,7 @@ impl fmt::Display for Arch {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match *self {
             Arch::AARCH64 => write!(f, "aarch64"),
-            Arch::ARM7L => write!(f, "arm7l"),
+            Arch::ARM7L => write!(f, "armv7l"),
             Arch::X86 => write!(f, "i686"),
             Arch::X86_64 => write!(f, "x86_64"),
         }
